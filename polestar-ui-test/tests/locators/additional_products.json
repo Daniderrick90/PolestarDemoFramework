@@ -1,0 +1,16 @@
+{
+    "pageName":"additional_products Page",
+    "timeout": 5000,
+    "books_link":{
+        "locator":"(//a[@href='https://additionals.polestar.com/se/product-category/bocker/'])[1]",
+        "description":"books link",
+        "action_Option":{
+        }   
+    },
+    "books":{
+        "locator":"//ul[@class='products columns-2']/li/a/span/span/bdi",
+        "description":"books",
+        "action_Option":{
+        }   
+    }
+}

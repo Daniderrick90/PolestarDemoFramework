@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuite failures="0" skipped="0" name="cucumber-js" time="87.371857087" tests="2">
+  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if user should be able to select the book with the price less than 700" time="43.518449592">
+    <system-out><![CDATA[Given User should be able to navigate to the polestar landing page........passed
+When user navigates to the Additionals products page......................passed
+And user click on Books link..............................................passed
+Then user is able to select the book with the price range between 700 t...passed]]></system-out>
+  </testcase>
+  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if user should be able to select the book with the price greater than 700" time="43.853407495">
+    <system-out><![CDATA[Given User should be able to navigate to the polestar landing page........passed
+When user navigates to the Additionals products page......................passed
+And user click on Books link..............................................passed
+Then user is able to select the book with the price range between 500 t...passed]]></system-out>
+  </testcase>
+</testsuite>

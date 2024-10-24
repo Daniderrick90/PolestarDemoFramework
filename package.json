@@ -1,0 +1,29 @@
+{
+  "name": "polestar",
+  "version": "1.0.0",
+  "description": "Framework with PlayWright BDD",
+  "main": "index.js",
+  "scripts": {
+    "test:UI": "cucumber-js --config=polestar-ui-test/config/cucumber.js || true & npx ts-node index.ts",
+    "test:API": "cucumber-js --config=polestar-api-test/config/cucumber.js || true & npx ts-node index.ts"
+  },
+  "keywords": [
+    "FW",
+    "TC",
+    "PW"
+  ],
+  "author": "Daniel Derrick",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.48.1",
+    "@types/chai": "^5.0.0",
+    "chai": "^5.1.2",
+    "cucumber-html-reporter": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "multiple-cucumber-html-reporter": "^3.8.0",
+    "playwright": "^1.48.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

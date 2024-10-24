@@ -1,0 +1,22 @@
+{
+    "pageName":"PoleStar Home Page",
+    "timeout": 5000,
+    "accept_all_cookies":{
+        "locator":"//button[@id='onetrust-accept-btn-handler']",
+        "description":"Accept All Cookies",
+        "action_Option":{
+        }   
+    },
+    "buy":{
+        "locator":"(//span[text()='Köpa'])[1]",
+         "description":"Buy Product",
+         "action_Option":{
+         } 
+     },
+    "additional_Products":{
+       "locator":"(//a[text()='Additionals'])[1]",
+        "description":"Additional Product",
+        "action_Option":{
+        } 
+    }
+}
