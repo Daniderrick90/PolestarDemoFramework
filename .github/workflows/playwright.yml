@@ -15,5 +15,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run Playwright tests
+    - name: Run Playwright tests UI
       run: npm run test:UI --TAGS="@UI"
+
+    - name: Run Playwright tests API
+      run: npm run test:API --TAGS="@API"
