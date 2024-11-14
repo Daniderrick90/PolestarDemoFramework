@@ -14,10 +14,10 @@ For Demo purpose web UI test cases are created on https://www.polestar.com/se si
 
 Features:
 - This testing framework supports Behavior Driven Development (BDD). Tests are written in plain English text called Gherkin
-- Framework has built in library to operate on UI, API (both SOAP & REST API) 
+- Framework was built in library to operate on UI, API (both SOAP & REST API) 
 - Supports execution of tests in different browsers.
 - Supports running scenarios in parallel mode. It runs 2 scenarios in parallel by default.
-- Generates Cucumber HTML Report & HTML Report.
+- Generates Cucumber HTML Report.
 
 Supported Browsers
 
