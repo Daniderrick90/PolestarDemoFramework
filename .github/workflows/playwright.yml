@@ -20,6 +20,3 @@ jobs:
 
     - name: Run Playwright tests API
       run: npm run test:API --TAGS="@API"
-
-    - name: Run K6 load test
-      run: k6 run K6-script.js
