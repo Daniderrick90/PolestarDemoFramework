@@ -46,6 +46,7 @@ Execution:
 
 - For UI : npm run test:UI --TAGS="@UI"
 - For API : npm run test:API --TAGS="@API"
+- For both UI & API : npm run test:all
 
 
 Report & Logs:
