@@ -36,19 +36,19 @@ Installation:
     - brew install k6  # macOS
     - choco install k6 # Windows
 
-Test creation
+Test creation:
 
 - Test scenarios are organized into features and these feature files should be placed inside features folder.
 - Step definitions connect Gherkin steps in feature files to programming code. A step definition carries out the action that should be performed by the scenario steps. These step definitions should placed inside steps folder in different packages.
 - For web UI based tests maintain all the Locators in Locator.json for the respective pages.
 
-Execution
+Execution:
 
 - For UI : npm run test:UI --TAGS="@UI"
 - For API : npm run test:API --TAGS="@API"
 
 
-Report & Logs
+Report & Logs:
 
 Cucumber HTML report will be present inside : reports\cucumber_report_PoleStar.html
 
