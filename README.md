@@ -21,9 +21,9 @@ For Demo purpose web UI test cases are created on https://www.polestar.com/se si
 
 Supported Browsers
 
-1. Chrome
-2. Firefox
-3. MS Edge
+   1. Chrome
+   2. Firefox
+   3. MS Edge
 
 2. Installation
 - Install Playwright Dependencies
