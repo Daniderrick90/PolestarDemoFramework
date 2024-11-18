@@ -1,5 +1,6 @@
 import {Page} from "playwright";
-import * as additional_Products from "../locators/additional_products.json";
+import {expect} from "@playwright/test"
+import * as extras from "../locators/Extras.json";
 import BasePage from "./basepage";
 import {ICreateAttachment} from "@cucumber/cucumber/lib/runtime/attachment_manager";
 import dotenv from "dotenv"
@@ -10,29 +11,38 @@ export default class additionalProducts extends BasePage{
         super(page , log);
     }
 
-    async books_links(){
+    async exterior_link(){
 
-        await this.click(additional_Products.books_link , additional_Products, additional_Products);
-        this.log(`User was able to click on books link under additional products page`);
+        await this.click(extras.books_link , extras, extras);
+        this.log(`User was able to click on exterior link under shop page`);
         await this.page.waitForTimeout(5000);
     }
 
-    async findthebook(Lower_price:number , higher_price:number) {
-     // Select all books under the books products page
-     const price = await this.page.$$(additional_Products.books.locator); // Adjust the selector if needed (e.g., 'ul > li' for nested lists)
-
-     // Loop through each list item and click the item with the price less than 700
-     for (const items of price) {
-         const innerText = await items.innerText();
-         const bookPrice = parseInt(innerText?.replace('kr', '').trim() || '0', 10);
-         if (bookPrice > Lower_price && bookPrice < higher_price){
-            await items.click();
-            await this.page.waitForTimeout(5000);
-            break;
-        }
-
-        } 
-
+    async Torkarblad_Product() {
+   
+        await this.click(extras.Torkarblad , extras, extras);
+        this.log(`User was able to click on Torkarblad under shop page`);
         
-    }    
+    } 
+    
+    async Ventilhattar_i_Swedish_gold_Product() {
+   
+        await this.click(extras.Ventilhattar_i_Swedish_gold , extras, extras);
+        this.log(`User was able to click on Torkarblad under shop page`);
+        
+    } 
+
+    async Torkarblad_product_price(price:number){
+        const innerText = await this.inner_Text(extras.Torkarblad_Price , extras, extras);
+        await expect(innerText).toBe(""+price+" kr");
+
+
+    }
+
+    async Ventilhattar_i_Swedish_gold_product_price(price:number){
+        const innerText = await this.inner_Text(extras.Ventilhattar_i_Swedish_gold_Price , extras, extras);
+        await expect(innerText).toBe(""+price+" kr");
+
+
+    }
 }     

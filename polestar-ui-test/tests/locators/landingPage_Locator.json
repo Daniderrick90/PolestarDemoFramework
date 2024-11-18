@@ -7,14 +7,14 @@
         "action_Option":{
         }   
     },
-    "buy":{
-        "locator":"(//span[text()='Köpa'])[1]",
+    "shop":{
+        "locator":"(//span[text()='Shop'])[1]",
          "description":"Buy Product",
          "action_Option":{
          } 
      },
-    "additional_Products":{
-       "locator":"(//a[text()='Additionals'])[1]",
+    "Extras":{
+       "locator":"(//a[text()='Extras'])[1]",
         "description":"Additional Product",
         "action_Option":{
         } 

@@ -1,17 +1,20 @@
 @UI
 Feature: To verify if user should be able to select the book with the price range
 
-Scenario: verify if user should be able to select the book with the price less than 700
+Scenario: verify if the price of the product Torkarblad is 840
 Given User should be able to navigate to the polestar landing page 
-When user navigates to the Additionals products page
-And user click on Books link
-Then user is able to select the book with the price range between 700 to 950
+When user navigates to the Extras page
+And user click on Exterior link
+And user is able to select the Torkarblad from the products
+Then check if the price for the Torkarblad is 840
+
+Scenario: verify if the price of the product 20 Pro vinterhjul is 450
+Given User should be able to navigate to the polestar landing page 
+When user navigates to the Extras page
+And user click on Exterior link
+And user is able to select the Ventilhattar i Swedish gold from the products
+Then check if the price for the Ventilhattar i Swedish gold is 450
 
 
-Scenario: verify if user should be able to select the book with the price greater than 700
-Given User should be able to navigate to the polestar landing page 
-When user navigates to the Additionals products page
-And user click on Books link
-Then user is able to select the book with the price range between 500 to 700
 
 

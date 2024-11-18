@@ -1,20 +1,17 @@
 <?xml version="1.0"?>
-<testsuite failures="0" skipped="0" name="cucumber-js" time="1.723255994" tests="4">
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Retrieve a user from the Reqres System" time="0.217577398">
-    <system-out><![CDATA[Given I have an API endpoint "?page=2"....................................passed
-When I send a GET request.................................................passed
-Then I should receive a response with status 200..........................passed]]></system-out>
+<testsuite failures="0" skipped="0" name="cucumber-js" time="28.900963787" tests="2">
+  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if the price of the product Torkarblad is 840" time="14.825049594">
+    <system-out><![CDATA[Given User should be able to navigate to the polestar landing page........passed
+When user navigates to the Extras page....................................passed
+And user click on Exterior link...........................................passed
+And user is able to select the Torkarblad from the products...............passed
+Then check if the price for the Torkarblad is 840.........................passed]]></system-out>
   </testcase>
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Create a user from the Reqres System" time="0.6993092000000001">
-    <system-out><![CDATA[Given I create a user with the post request to Reqres API with name "Pr...passed
-Then I should receive a response with status 201..........................passed]]></system-out>
-  </testcase>
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Update a user from the Reqres System" time="0.425252898">
-    <system-out><![CDATA[Given I update a user with the put request to Reqres API "/5" name "Pri...passed
-Then I should receive a response with status 200..........................passed]]></system-out>
-  </testcase>
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Delete a user from the Reqres System" time="0.38111649799999997">
-    <system-out><![CDATA[Given I delete a user with the delete request to Reqres API "/5"..........passed
-Then I should receive a response with status 204..........................passed]]></system-out>
+  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if the price of the product 20 Pro vinterhjul is 450" time="14.075914193">
+    <system-out><![CDATA[Given User should be able to navigate to the polestar landing page........passed
+When user navigates to the Extras page....................................passed
+And user click on Exterior link...........................................passed
+And user is able to select the Ventilhattar i Swedish gold from the pro...passed
+Then check if the price for the Ventilhattar i Swedish gold is 450........passed]]></system-out>
   </testcase>
 </testsuite>

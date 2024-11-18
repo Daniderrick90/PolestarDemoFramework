@@ -1,0 +1,34 @@
+{
+    "pageName":"Extras Page",
+    "timeout": 5000,
+    "books_link":{
+        "locator":"(//span[text()='Exteriör'])[1]",
+        "description":"Exterior link",
+        "action_Option":{
+        }   
+    },
+    "Torkarblad":{
+        "locator":"//img[@title='Torkarblad']",
+        "description":"Torkarblad",
+        "action_Option":{
+        }   
+    },
+    "Ventilhattar_i_Swedish_gold":{
+        "locator":"//img[contains(@title, 'Ventilhattar')]",
+        "description":"Ventilhattar i Swedish gold",
+        "action_Option":{
+        }   
+    },
+    "Torkarblad_Price":{
+        "locator":"//h2[text()='Torkarblad']/following-sibling::h3",
+        "description":"Torkarblad_Price",
+        "action_Option":{
+        }   
+    },
+    "Ventilhattar_i_Swedish_gold_Price":{
+        "locator":"//h2[contains(text(), 'Ventilhattar')]/following-sibling::h3",
+        "description":"Ventilhattar_i_Swedish_gold_Price",
+        "action_Option":{
+        }   
+    }
+}

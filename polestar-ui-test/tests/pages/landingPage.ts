@@ -26,8 +26,8 @@ export default class landingPage extends BasePage{
     }
 
     async additional_Products(){
-        await this.mouse_Hower_on_Element(landingPage_Locator.buy, landingPage_Locator)
-        await this.click(landingPage_Locator.additional_Products , landingPage_Locator, landingPage_Locator);
+        await this.mouse_Hower_on_Element(landingPage_Locator.shop, landingPage_Locator)
+        await this.click(landingPage_Locator.Extras , landingPage_Locator, landingPage_Locator);
         this.log(`User is able to navigate to additional product page successfully`);
     }
 
