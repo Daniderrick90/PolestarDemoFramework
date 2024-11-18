@@ -12,7 +12,7 @@ Cucumber is a tool for running automated tests written in plain language. Becaus
 
 For Demo purpose web UI test cases are created on https://www.polestar.com/se site and API test cases are created on https://reqres.in/ System API endpoints.
 
-1 Features:
+1. Features:
 - This testing framework supports Behavior Driven Development (BDD). Tests are written in plain English text called Gherkin
 - Framework was built in library to operate on UI, API (both SOAP & REST API) 
 - Supports execution of tests in different browsers.
@@ -25,7 +25,8 @@ Supported Browsers
    2. Firefox
    3. MS Edge
 
-2. Installation
+
+2. Installation:
 - Install Playwright Dependencies
    - npm init playwright@latest
    - npx playwright install
