@@ -1,5 +1,6 @@
 import {Page} from "playwright";
 import {getBContext} from "../../corelibraries/hooks";
+// @ts-ignore
 import {ICreateAttachment, ICreateLog} from "@cucumber/cucumber/lib/runtime/attachment_manager";
 export default class BasePage{
     protected page:Page;

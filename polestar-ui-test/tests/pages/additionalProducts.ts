@@ -2,6 +2,7 @@ import {Page} from "playwright";
 import {expect} from "@playwright/test"
 import * as extras from "../locators/Extras.json";
 import BasePage from "./basepage";
+// @ts-ignore
 import {ICreateAttachment} from "@cucumber/cucumber/lib/runtime/attachment_manager";
 import dotenv from "dotenv"
 export default class additionalProducts extends BasePage{

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<testsuite failures="0" skipped="0" name="cucumber-js" time="28.900963787" tests="2">
-  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if the price of the product Torkarblad is 840" time="14.825049594">
+<testsuite failures="0" skipped="0" name="cucumber-js" time="34.805010688" tests="2">
+  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if the price of the product Torkarblad is 840" time="17.402654595">
     <system-out><![CDATA[Given User should be able to navigate to the polestar landing page........passed
 When user navigates to the Extras page....................................passed
 And user click on Exterior link...........................................passed
 And user is able to select the Torkarblad from the products...............passed
 Then check if the price for the Torkarblad is 840.........................passed]]></system-out>
   </testcase>
-  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if the price of the product 20 Pro vinterhjul is 450" time="14.075914193">
+  <testcase classname="To verify if user should be able to select the book with the price range" name="verify if the price of the product 20 Pro vinterhjul is 450" time="17.402356093">
     <system-out><![CDATA[Given User should be able to navigate to the polestar landing page........passed
 When user navigates to the Extras page....................................passed
 And user click on Exterior link...........................................passed

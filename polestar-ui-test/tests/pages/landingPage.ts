@@ -1,6 +1,7 @@
 import {Page} from "playwright";
 import * as landingPage_Locator from "../locators/landingPage_Locator.json";
 import BasePage from "./basepage";
+// @ts-ignore
 import {ICreateAttachment} from "@cucumber/cucumber/lib/runtime/attachment_manager";
 import dotenv from "dotenv"
 export default class landingPage extends BasePage{
