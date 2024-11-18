@@ -40,3 +40,7 @@ Supported Browsers
 4. Report & Logs
 
 Cucumber HTML report will be present inside : reports\cucumber_report_PoleStar.html
+
+5. GITHUB Actions:
+
+GTIHUB Actions is created to facilitate Continuous Integration (CI) and Continuous Deployment (CD) workflows. It allows you to automate software development processes, such as building, testing, and deploying code, directly within your GitHub repository.
