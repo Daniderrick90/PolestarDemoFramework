@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7869400
+              "duration": 6911200
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "I have an API endpoint \"?page=2\"",
             "match": {
-              "location": "polestar-api-test\\tests\\steps\\request.ts:12"
+              "location": "polestar-api-test\\tests\\steps\\request.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 4419000
+              "duration": 4232099
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "I send a GET request",
             "match": {
-              "location": "polestar-api-test\\tests\\steps\\request.ts:17"
+              "location": "polestar-api-test\\tests\\steps\\request.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 132038300
+              "duration": 2297480100
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1936599
+              "duration": 1972999
             }
           }
         ],
@@ -77,7 +77,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6639999
+              "duration": 7024199
             }
           },
           {
@@ -86,11 +86,11 @@
             "line": 10,
             "name": "I create a user with the post request to Reqres API with name \"Prince\" and job \"Automation\"",
             "match": {
-              "location": "polestar-api-test\\tests\\steps\\request.ts:28"
+              "location": "polestar-api-test\\tests\\steps\\request.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 456622199
+              "duration": 2546634199
             }
           },
           {
@@ -103,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1940999
+              "duration": 1989800
             }
           }
         ],
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 831999
+              "duration": 798700
             }
           },
           {
@@ -136,11 +136,11 @@
             "line": 14,
             "name": "I update a user with the put request to Reqres API \"/5\" name \"Prince\" and job \"Automation Test\"",
             "match": {
-              "location": "polestar-api-test\\tests\\steps\\request.ts:48"
+              "location": "polestar-api-test\\tests\\steps\\request.ts:49"
             },
             "result": {
               "status": "passed",
-              "duration": 339336499
+              "duration": 386105900
             }
           },
           {
@@ -153,7 +153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 453600
+              "duration": 402700
             }
           }
         ],
@@ -177,7 +177,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1179000
+              "duration": 1214600
             }
           },
           {
@@ -186,11 +186,11 @@
             "line": 18,
             "name": "I delete a user with the delete request to Reqres API \"/5\"",
             "match": {
-              "location": "polestar-api-test\\tests\\steps\\request.ts:68"
+              "location": "polestar-api-test\\tests\\steps\\request.ts:69"
             },
             "result": {
               "status": "passed",
-              "duration": 331302099
+              "duration": 328929799
             }
           },
           {
@@ -203,7 +203,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 478000
+              "duration": 423900
             }
           }
         ],
