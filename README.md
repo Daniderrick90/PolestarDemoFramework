@@ -21,26 +21,38 @@ Features:
 
 Supported Browsers
 
-1. Chrome
-2. Firefox
-3. MS Edge
+   1. Chrome
+   2. Firefox
+   3. MS Edge
 
-2. Test creation
+
+Installation:
+- Install Playwright Dependencies
+   - npm init playwright@latest
+   - npx playwright install
+ 
+- Install K6 for Load Testing
+  To perform load testing, install K6:
+    - brew install k6  # macOS
+    - choco install k6 # Windows
+
+Test creation:
 
 - Test scenarios are organized into features and these feature files should be placed inside features folder.
 - Step definitions connect Gherkin steps in feature files to programming code. A step definition carries out the action that should be performed by the scenario steps. These step definitions should placed inside steps folder in different packages.
 - For web UI based tests maintain all the Locators in Locator.json for the respective pages.
 
-3. Execution
+Execution:
 
 - For UI : npm run test:UI --TAGS="@UI"
 - For API : npm run test:API --TAGS="@API"
+- For both UI & API : npm run test:all
 
 
-4. Report & Logs
+Report & Logs:
 
 Cucumber HTML report will be present inside : reports\cucumber_report_PoleStar.html
 
-5. GITHUB Actions:
+GITHUB Actions:
 
 GTIHUB Actions is created to facilitate Continuous Integration (CI) and Continuous Deployment (CD) workflows. It allows you to automate software development processes, such as building, testing, and deploying code, directly within your GitHub repository
