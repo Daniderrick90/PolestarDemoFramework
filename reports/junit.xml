@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<testsuite failures="0" skipped="0" name="cucumber-js" time="5.584120195" tests="4">
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Retrieve a user from the Reqres System" time="2.310596398">
+<testsuite failures="0" skipped="0" name="cucumber-js" time="1.457775494" tests="4">
+  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Retrieve a user from the Reqres System" time="0.147688198">
     <system-out><![CDATA[Given I have an API endpoint "?page=2"....................................passed
 When I send a GET request.................................................passed
 Then I should receive a response with status 200..........................passed]]></system-out>
   </testcase>
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Create a user from the Reqres System" time="2.555648198">
+  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Create a user from the Reqres System" time="0.542779998">
     <system-out><![CDATA[Given I create a user with the post request to Reqres API with name "Pr...passed
 Then I should receive a response with status 201..........................passed]]></system-out>
   </testcase>
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Update a user from the Reqres System" time="0.38730729999999997">
+  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Update a user from the Reqres System" time="0.42458959900000004">
     <system-out><![CDATA[Given I update a user with the put request to Reqres API "/5" name "Pri...passed
 Then I should receive a response with status 200..........................passed]]></system-out>
   </testcase>
-  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Delete a user from the Reqres System" time="0.330568299">
+  <testcase classname="Scenarios related to Users REST API in Reqres System" name="Delete a user from the Reqres System" time="0.34271769900000004">
     <system-out><![CDATA[Given I delete a user with the delete request to Reqres API "/5"..........passed
 Then I should receive a response with status 204..........................passed]]></system-out>
   </testcase>
